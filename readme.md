@@ -49,7 +49,7 @@ pnpm install ws node-fetch form-data
 ```javascript
 const XianyuLive = require("./goofish_live.js");
 
-const cookies_str = "";  // 通过网页 https://www.goofish.com/ 获取任意请求的cookie
+const cookies_str = "";  // 通过网页 https://www.goofish.com/ 获取任意登陆后的请求的cookie
 const xianyuLive = new XianyuLive(cookies_str);
 xianyuLive.start();
 ```
