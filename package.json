@@ -1,0 +1,14 @@
+{
+  "name": "Goofish_Chat_Bot",
+  "version": "1.0.0",
+  "description": "闲鱼 API Node.js 实现",
+  "main": "goofish_live.js",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0",
+    "ws": "^8.16.0",
+    "form-data": "^4.0.0"
+  }
+}
